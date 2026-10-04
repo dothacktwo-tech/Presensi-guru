@@ -1,0 +1,6 @@
+{
+  "name": "Generator Laporan Kinerja",
+  "description": "Aplikasi pembuatan laporan kinerja harian guru dan tenaga kependidikan non-ASN.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

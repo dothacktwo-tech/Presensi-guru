@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .ok { color: oklch(0.5 0.1 200); }
+</style>
+</head>
+<body>
+  <div id="test" class="ok">Test</div>
+  <script>
+    console.log(getComputedStyle(document.getElementById('test')).color);
+  </script>
+</body>
+</html>

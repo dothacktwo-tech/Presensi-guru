@@ -1,0 +1,10 @@
+#!/bin/bash
+find src -type f -name "*.tsx" -o -name "*.ts" | xargs sed -i 's/indigo-50/purple-50/g'
+find src -type f -name "*.tsx" -o -name "*.ts" | xargs sed -i 's/indigo-100/purple-100/g'
+find src -type f -name "*.tsx" -o -name "*.ts" | xargs sed -i 's/indigo-200/purple-200/g'
+find src -type f -name "*.tsx" -o -name "*.ts" | xargs sed -i 's/indigo-500/purple-500/g'
+find src -type f -name "*.tsx" -o -name "*.ts" | xargs sed -i 's/indigo-600/purple-600/g'
+find src -type f -name "*.tsx" -o -name "*.ts" | xargs sed -i 's/indigo-700/purple-700/g'
+find src -type f -name "*.tsx" -o -name "*.ts" | xargs sed -i 's/indigo-800/purple-800/g'
+find src -type f -name "*.tsx" -o -name "*.ts" | xargs sed -i 's/007bff/6f42c1/g'
+find src -type f -name "*.tsx" -o -name "*.ts" | xargs sed -i 's/0069d9/59339d/g'

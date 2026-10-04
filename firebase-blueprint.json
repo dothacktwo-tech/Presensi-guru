@@ -1,0 +1,9 @@
+{
+  "collections": [
+    {
+      "name": "reports",
+      "rules": "allow read, write: if true;",
+      "indexes": []
+    }
+  ]
+}
